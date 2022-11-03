@@ -1,0 +1,42 @@
+{
+  "vendor": "frncubo",
+  "name": "total-items-available",
+  "version": "1.1.0",
+  "title": "Total Items Available",
+  "description": "Returns the total number of items available in the store stock",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "node": "6.x",
+    "docs": "0.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.css-handles": "0.x",
+    "vtex.product-context": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "*/"
+      }
+    }
+  ],
+  "billingOptions": {
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ],
+    "support": {
+      "url": "https://frncomunicacao.com.br",
+      "email": "matheus.bronca@frncubo.com",
+      "phone": "+5562984546866"
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

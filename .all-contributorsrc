@@ -1,0 +1,14 @@
+{
+  "projectName": "total-items-available",
+  "projectOwner": "frncubo",
+  "repoType": "bitbucket",
+  "repoHost": "https://bitbucket.org",
+  "files": [
+    "docs/README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [],
+  "contributorsPerLine": 7
+}
